@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.products {
+display: flex;
+flex-wrap: wrap;
+}
+.product-card {
+ padding: 2%;
+flex-grow: 1;
+flex-basis: 16%;
+}
+body {
+ background-color: #f6f6f6;
+}
+.cont {
+display: flex;
+justify-content: center;
+}
+.back {
+ background-color: #f4eddd; 
+ padding: 20px;
+margin-left: 20px;
+margin-right: 20px;
+font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+.change {
+ background-color: black;
+color: white;
+padding: 10px;
+border: none;
+ font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3, h4 {
+font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+button {
+margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+    background: #cfd8dc;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
 }
